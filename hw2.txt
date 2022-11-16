@@ -1,0 +1,29 @@
+Problem 1: 
+a: staged
+b: README.md should be modified, and fun_problem.txt should be staged
+c: Both of them are staged.
+d: Both of them are modified.
+e: README.md is staged, fun_problem.txt is unmodified
+   Content of fun_problem:
+   So far, so good
+   
+f: README.md is modified
+
+
+Problem 2:
+a: 1.TAB
+b: the actions after shape1 and clean will be called
+         Command-Line shape1: g++ -I. -std=c++11 -ggdb shape1.o shape.o -o shape1.o -lm
+	 Command-Line clean: rm -f *.o *~ shape1 shape2 *~
+c: .PHONY is used so that make will not check the name as actual file name
+d: 2 Makefile, 4 makefile
+
+
+Problem 3: ADT:
+1. A list of strings, where strings are the names of college names.
+
+2. A set of strings.
+
+3. A map whose keys are names and value is another map, where the inner map has keys of devices and values of corresponding numbers.
+
+4. A map whose keys are the 2-letter state postal codes and values are sets of all the zip codes within the state.
